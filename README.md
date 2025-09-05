@@ -22,6 +22,24 @@ The architecture is cleanly divided into:
 
 ---
 
+## 🌿 Branches
+
+This project uses **two main branches**:
+
+### `main` (Backend)
+- Contains the **.NET backend template**.  
+- Exposes **API endpoints** for users, products, and orders.  
+- Used to serve data to frontend templates or other clients.  
+
+### `front` (Frontend)
+- Contains the **frontend template**.  
+- Reads data from the backend API (main branch).  
+- Provides a **UI for users and admins** to interact with the system.  
+- Displays product data, order forms, and dashboards.  
+
+> The `frint` branch depends on the `main` API branch for data, so make sure the backend is running before using the frontend.
+
+---
 
 ## ✨ Features
 
@@ -53,6 +71,8 @@ The architecture is cleanly divided into:
 3. Kitchen updates status → System updates cashier and admin dashboards.  
 4. Admin monitors analytics and generates reports.  
 
+> Frontend (`frint`) reads this data from the API (`main`) and displays it in the UI.
+
 ---
 
 ## 🛠️ Technologies Used
@@ -61,6 +81,7 @@ The architecture is cleanly divided into:
 - **Entity Framework** – ORM for database access  
 - **SQL Server** – Database storage  
 - **Swagger / Postman** – API testing  
+- **Frontend Template** – HTML/CSS/JS or your preferred frontend framework  
 
 ---
 
@@ -78,3 +99,4 @@ The architecture is cleanly divided into:
 1. Clone the repository:  
 ```bash
 git clone https://github.com/YourUsername/YourRepo.git
+cd YourRepo
