@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "58YdN0VcvMuNR+gJQRRBAzYEuR52+YKyAjFADaxpr0k=",
+  "Source": "project_cls",
+  "BasePath": "_content/project_cls",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "project_cls\\wwwroot",
+      "Source": "project_cls",
+      "ContentRoot": "D:\\reataurant menha\\API_ProjectCls12222\\API_ProjectCls1\\project_cls-master\\project_cls\\wwwroot\\",
+      "BasePath": "_content/project_cls",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
